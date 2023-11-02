@@ -19,7 +19,8 @@ export const Hero = () => {
 
 
                 </div>
-                <img src="/images/skinpose.png" id="skin-img"></img>
+                <img src="/images/skinpose.png" id="skin-img-spreyo"></img>
+                <img src="/images/skinpose2.png" id="skin-img-hype"></img>
                 <div id="hero-cards" className=" mt-auto flex w-screen h-screen justify-center gap-8 animate__faster animate__animated animate__slideInUp">
                     <div className='hero-wrap'>
                         <div className="hero-card" style={{ backgroundImage: "url(\"/images/dungeons.png\")" }}>

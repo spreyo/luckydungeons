@@ -7,10 +7,12 @@ export const DungeonsButton = ({ text, hoverText, onClick }) => {
             onMouseEnter={() => { document.querySelector(".dungeons-button p").innerHTML = hoverText }}
             onClick={() => {
                 document.querySelector(".dungeons-button p").innerHTML = text;
+                document.querySelector(".dungeons-button audio").play();
                 onClick()
             }}
         >
             <p>{text}</p>
+            <audio src="/sounds/clickSound.mp3"></audio>
         </div>
     )
 }
