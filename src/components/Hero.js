@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Hero.min.css"
 import 'animate.css';
 import { DungeonsButton } from './DungeonsButton';
 
 export const Hero = () => {
+    useEffect(() => {
+        console.log(window.screen);
+    })
     return (
         <>
             <img src="/images/bg.png" id="hero-img" className=" w-screen h-screen object-cover opacity-70 absolute left-0"></img>
@@ -21,6 +24,7 @@ export const Hero = () => {
                 </div>
                 <img src="/images/skinpose.png" id="skin-img-spreyo"></img>
                 <img src="/images/skinpose2.png" id="skin-img-hype"></img>
+                <img src="/images/skinpose3.png" id="skin-img-kenny"></img>
                 <div id="hero-cards" className=" mt-auto flex w-screen h-screen justify-center gap-8 animate__faster animate__animated animate__slideInUp">
                     <div className='hero-wrap'>
                         <div className="hero-card" style={{ backgroundImage: "url(\"/images/dungeons.png\")" }}>
