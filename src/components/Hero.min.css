@@ -28,7 +28,6 @@ body {
     font-size: 4rem;
     font-family: "Dungeons";
     color: #D7D4D4;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
@@ -37,6 +36,21 @@ body {
 #hero-subheader {
     font-family: "Mont";
 
+}
+
+#hero-button {
+    background-color: #3f3f3f;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-clip: padding-box;
 }
 
 #hero-cards {
@@ -104,4 +118,14 @@ body {
     font-family: "dungeons";
     transition: 0.5s;
     justify-content: center;
+}
+
+#skin-img {
+    width: 400px;
+    height: 800px;
+    justify-self: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 375px;
+
 }
