@@ -1,0 +1,107 @@
+@font-face {
+    src: url("/public/fonts/minecraft-dungeons.ttf");
+    font-family: "Dungeons"
+}
+
+@font-face {
+    src: url("/public/fonts/mont.otf");
+    font-family: "Mont";
+}
+
+body {
+    overflow: hidden;
+
+}
+
+#hero-img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-color: #3F3F3F4D;
+    position: absolute;
+    left: 0;
+    filter: blur(2px)
+}
+
+
+#hero-header {
+    font-size: 4rem;
+    font-family: "Dungeons";
+    color: #D7D4D4;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+#hero-subheader {
+    font-family: "Mont";
+
+}
+
+#hero-cards {
+    display: flex;
+    position: fixed;
+    top: 80%;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero-wrap {
+    border-radius: 15px;
+    width: max-content;
+    height: max-content;
+    background: linear-gradient(180deg, #575757 0%, rgba(253, 253, 253, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+.hero-wrap:hover {
+    /* background: none; */
+    transform: translateY(-50px);
+}
+
+.hero-card {
+    /* width: 567px;
+    height: 318px; */
+    width: 30vw;
+    height: 30vh;
+    flex-shrink: 0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card:hover {}
+
+.hero-card div {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+
+.hero-card div:hover {
+    backdrop-filter: blur(5px);
+
+}
+
+.hero-card div:hover>.hero-card-text {
+    transform: scale(2);
+}
+
+.hero-card-text {
+    font-family: "dungeons";
+    transition: 0.5s;
+    justify-content: center;
+}
