@@ -3,7 +3,7 @@ import React from 'react'
 export const NavBar = () => {
     return (
         <>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-neutral">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -17,7 +17,8 @@ export const NavBar = () => {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <a className="btn btn-ghost normal-case text-xl">Lucky Dungeons</a>
+                    <img src="/images/logo.svg" className='btn btn-ghost normal-case fill-white scale-75'></img>
+                    {/* <a className="btn btn-ghost normal-case text-xl">Lucky Dungeons</a> */}
                 </div>
                 <div className="navbar-end">
                     {/* <button className="btn btn-ghost btn-circle">

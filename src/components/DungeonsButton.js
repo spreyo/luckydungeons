@@ -8,11 +8,13 @@ export const DungeonsButton = ({ text, hoverText, onClick }) => {
             onClick={() => {
                 document.querySelector(".dungeons-button p").innerHTML = text;
                 document.querySelector(".dungeons-button audio").play();
+                document.querySelector("#click").play();
                 onClick()
             }}
         >
             <p>{text}</p>
-            <audio src="/sounds/clickSound.mp3"></audio>
+            <audio src="/sounds/clickSound.mp3" ></audio>
+            <audio src="/sounds/clickSound2.mp3" id="click"></audio>
         </div>
     )
 }
