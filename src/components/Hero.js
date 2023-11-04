@@ -27,9 +27,9 @@ export const Hero = () => {
                 <img src="/images/skinpose3.png" className="animate__animated animate__bounceInRight" id="skin-img-kenny"></img>
                 <div id="hero-cards" className=" mt-auto flex w-screen h-screen justify-center gap-8 animate__faster animate__animated animate__slideInUp">
                     <div className='hero-wrap'>
-                        <div className="hero-card" style={{ backgroundImage: "url(\"/images/dungeons.png\")" }}>
+                        <div className="hero-card" style={{ backgroundImage: "url(\"/images/gambling.png\")" }}>
                             <div>
-                                <h1 className='hero-card-text'>DUNGEONS</h1>
+                                <h1 className='hero-card-text'>GAMBLING</h1>
                             </div>
                         </div>
                     </div>
